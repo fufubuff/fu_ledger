@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="color_picker_wrapper">
+    <text>选择背景颜色：</text>
+    <input type="color" bindinput="changeBackgroundColor" />
+  </view>
+  <button bindtap="applyBackgroundColor">应用背景颜色</button>
+</view>
