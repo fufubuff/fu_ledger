@@ -28,6 +28,7 @@
   height:50rpx;
   line-height:50rpx;
   font-size:24rpx;
+  font-family: '楷体';
 }
 .header_item text.header_date_month{
   position:relative;
@@ -60,6 +61,7 @@
   line-height:80rpx;
   font-size:30rpx;
   text-align:left;
+  font-family: '楷体';
 }
 .book_list_header .book_list_right{
   text-align:right;
@@ -93,10 +95,17 @@
   color:#333;
   border-bottom:1rpx solid #eee;
   box-sizing:border-box;
+  font-family: '楷体';
 }
 .book_list_item .book_list_item_amt{
   padding-right:20rpx;
   width:250rpx;
   color:#000;
   text-align:right;
+}
+/* 应用到整个页面的样式 */
+page {
+  background-image: url('/images/background.jpg'); /* 设置背景图片 */
+  background-size: cover; /* 背景图片覆盖整个容器 */
+  background-position: center; /* 背景图片居中显示 */
 }
