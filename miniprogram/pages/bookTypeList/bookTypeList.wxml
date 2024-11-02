@@ -10,6 +10,13 @@
     <text class="drag_icon">三</text>
     <text class="book_type_delete" catchtap="deleteBookType" data-idx="{{idx}}">删除</text>
   </view>
+  <!-- 添加类别 -->
+  <view class="add_booktype_box">
+  <view class="add_booktype_wrapper">
+    <image class="add_icon" src="{{'/utils/icons/shape.png'}}"></image>
+    <text catchtap="addBookType" class="add_booktype_btn">+添加类别</text>
+  </view>
 </view>
-<!-- 添加类别 -->
-<text catchtap="addBookType" class="add_booktype_btn">+添加类别</text>
+
+</view>
+

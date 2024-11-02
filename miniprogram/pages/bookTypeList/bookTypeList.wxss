@@ -88,15 +88,44 @@ page{
   text-align:center;
   background:#EE3B3B;
 }
+.add_booktype_circle {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  width: 150rpx; /* 圆圈的直径 */
+  height: 150rpx; /* 圆圈的直径 */
+  border-radius: 75rpx; /* 圆形边框 */
+  border: 2rpx solid #ccc; /* 圆圈边框样式 */
+  background-color: #fff; /* 圆圈背景色 */
+  margin-top: 20rpx; /* 圆圈与上方的间距 */
+}
 
-.add_booktype_btn{
-  position:fixed;
-  left:0;
-  bottom:0;
-  width:100%;
-  height:100rpx;
-  line-height:100rpx;
-  font-size:30rpx;
-  text-align:center;
-  background:#fff;
+.add_booktype_wrapper {
+  display: flex; /* 使用 flexbox 布局 */
+  align-items: center; /* 垂直居中对齐 */
+  padding: 10rpx; /* 添加内边距以增加空间 */
+}
+
+.add_booktype_btn {
+  height: 100rpx; /* 确保按钮高度合适 */
+  line-height: 100rpx; /* 垂直居中 */
+  font-size: 30rpx;
+  text-align: center;
+  background: #fff;
+  flex: 1; /* 让按钮占据剩余空间 */
+}
+
+.add_icon {
+  width: 40rpx; /* 调整图标大小 */
+  height: 40rpx;
+  margin-left: 10rpx; /* 按钮和图标之间的间距 */
+}
+.add_booktype_box {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  border: 7rpx solid rgb(255, 165, 0); /* 橙色边框 */
+  padding: 10rpx; /* 内边距 */
+  margin-top: 20rpx; /* 上方间距 */
+  border-radius: 10rpx; /* 边框圆角 */
 }
