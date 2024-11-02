@@ -12,6 +12,7 @@
 <view class="icon_list_wrapper clearfix"
   wx:for="{{iconList}}" wx:for-index="idx" wx:key="idx">
   <text class="icon_type_title">{{item.name}}</text>
+  <view class="separator"></view> <!-- 添加分割线 -->
   <view class="icon_list">
     <view class="icon_wrapper {{indexX==idx && indexY==idy?'active':''}}" 
       catchtap="selectIcon" data-idx="{{idx}}" data-idy="{{idy}}"

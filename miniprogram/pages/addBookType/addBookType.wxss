@@ -1,34 +1,51 @@
 .icon_list_wrapper{
   width:100%;
+  text-align: center; /* 确保文本居中 */
+  margin: 20rpx 0;
 }
-.icon_type_title{
-  float:left;
-  width:100%;
-  height:80rpx;
-  line-height:100rpx;
-  font-size:28rpx;
-  color:#333;
-  text-align:center;
+
+
+.icon_type_title {
+  display: inline-block; /* 改为行内块元素，以适应内容宽度 */
+  height: auto; /* 根据内容高度自动调整 */
+  line-height: normal; /* 恢复默认行高，以避免过高 */
+  font-size: 38rpx; /* 字体大小 */
+  color: rgb(184, 149, 69); /* 字体颜色 */
+  border: 2rpx solid rgba(228, 186, 147, 0.8); /* 浅灰色边框 */
+  border-radius: 15rpx; /* 圆角 */
+  padding: 5rpx 10rpx; /* 内边距 */
+  box-shadow: 0 2rpx 5rpx rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+  text-shadow: 0 1rpx 2rpx rgba(241, 182, 93, 0.5); /* 字体立体效果 */
 }
+
+.separator {
+  width: 100%; /* 分割线宽度 */
+  border-top: 4rpx dashed rgba(214, 164, 98, 0.8); /* 虚线 */
+  margin-top: 15rpx; /* 分割线与标题之间的间距 */
+  margin-bottom: 20rpx; /* 分割线与下面内容的间距 */
+}
+
+
+
 .icon_list{
   width:100%;
 }
 .icon_wrapper{
-  margin:10rpx;
+  margin:20rpx;
   float:left;
-  width:80rpx;
-  height:80rpx;
-  background:#eee;
+  width:85rpx;
+  height:85rpx;
+  background:rgb(243, 226, 195);
   border-radius:50%;
 }
 .icon_wrapper.active{
-  background:#ffd700;
+  background:#fac77c;
 }
 .icon_wrapper image{
   display:block;
   margin:15rpx auto;
-  width:50rpx;
-  height:50rpx;
+  width:60rpx;
+  height:60rpx;
 }
 
 .add_type_wrapper{
@@ -38,7 +55,7 @@
 }
 .icon_type_text{
   float:left;
-  margin-top:20rpx;
+  margin-top:30rpx;
   width:450rpx;
   height:60rpx;
   min-height:60rpx;
@@ -54,7 +71,7 @@
   line-height:60rpx;
   font-size:28rpx;
   color:#fff;
-  background:#ffd700;
+  background:#eb9d2ac7;
   border-radius:10rpx;
   text-align:center;
 }
