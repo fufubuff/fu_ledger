@@ -20,7 +20,13 @@
   </view>
 </view>
 <!-- 添加计划 -->
-<text catchtap="addPlanType" class="add_plantype_btn">+添加计划</text>
+<view class="add_plan_box">
+  <view class="add_booktype_wrapper">
+    <image class="add_icon" src="{{'/utils/icons/shape.png'}}"></image>
+    <text catchtap="addPlanType" class="add_booktype_btn">+添加计划</text>
+  </view>
+</view>
+
 <!-- 格式化数据 -->
 <wxs module="formatData">
   var mathAbs = function(data){
