@@ -1,0 +1,121 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "appid": "wx9a3b18647209fd37",
+  "projectname": "%E8%AE%B0%E8%B4%A6%E6%9C%AC",
+  "libVersion": "3.6.3",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "添加类型",
+          "pathName": "pages/addBookType/addBookType",
+          "query": "ptype=1",
+          "scene": null
+        },
+        {
+          "name": "类型列表",
+          "pathName": "pages/bookTypeList/bookTypeList",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "添加账单",
+          "pathName": "pages/addBook/addBook",
+          "query": "id=7799745c5def45c201eb90f5355f3c20&tab=0",
+          "scene": null
+        },
+        {
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "账单详情",
+          "pathName": "pages/bookDetail/bookDetail",
+          "query": "id=075734515d81f9440014cf75140c9676",
+          "scene": null
+        },
+        {
+          "name": "图表",
+          "pathName": "pages/chart/chart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "计划列表",
+          "pathName": "pages/planList/planList",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "测试",
+          "pathName": "pages/test/test",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "compileType": "miniprogram",
+  "srcMiniprogramRoot": "miniprogram/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}
