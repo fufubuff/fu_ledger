@@ -9,8 +9,8 @@
 .booktype_item{
   float:left;
   margin-top:20rpx;
-  margin-left:25rpx;
-  margin-right:25rpx;
+  margin-left:39rpx;
+  margin-right:55rpx;
   width:100rpx;
   height:150rpx;
 }
@@ -30,14 +30,20 @@
   width:50rpx;
   height:50rpx;
 }
-.booktype_item text{
-  display:block;
-  width:100%;
-  height:40rpx;
-  line-height:40rpx;
-  font-size:26rpx;
-  text-align:center;
+.booktype_item text {
+  display: block;
+  width: 100%;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 26rpx;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* 选择更美观的字体 */
+  font-weight: 500; /* 中等粗细 */
+  color: rgb(211, 143, 16); /* 深色字体 */
+  letter-spacing: 0.5px; /* 字间距 */
+  text-shadow: 0 1rpx 3rpx rgba(0, 0, 0, 0.2); /* 轻微阴影 */
 }
+
 /* 顶部 */
 .padding_80{
   width:100%;
